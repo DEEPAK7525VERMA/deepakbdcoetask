@@ -9,12 +9,13 @@ void main() {
           title: Text("Deepak's Portfolio"),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: Center(
-          child: Image(
-            image:
-               AssetImage('images/deepak.jpeg'),
+        body:Center(
+          child: CircleAvatar(
+            backgroundImage:AssetImage('assets/images/deepak.jpg'),
+            radius:125,
           ),
         ),
+
       ),
     ),
   );
